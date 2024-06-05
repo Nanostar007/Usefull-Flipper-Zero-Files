@@ -1,0 +1,56 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 03 91 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: E5 87 00 00
+command: 02 91 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: E5 87 00 00
+command: 0B 91 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: E5 87 00 00
+command: 04 91 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: E5 87 00 00
+command: 07 91 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: E5 87 00 00
+command: 08 91 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 07 00 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
