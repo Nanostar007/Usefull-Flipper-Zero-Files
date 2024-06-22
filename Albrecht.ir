@@ -1,0 +1,92 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+# 
+name: EQ
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 53 00 00 00
+# 
+name: Prev
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8972 4566 493 619 518 592 519 648 514 623 517 569 566 648 493 596 543 622 515 1708 571 1706 492 1840 409 1762 516 1710 566 1712 515 1736 515 1739 488 657 506 625 541 570 542 659 477 598 542 1709 542 622 518 646 491 1763 488 1787 466 1734 490 1761 516 1734 491 623 541 1736 516 1708 519 39167 8906 2325 516
+# 
+name: Pause
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 21 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 22 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: Home
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+# 
+name: Vol_dwn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
